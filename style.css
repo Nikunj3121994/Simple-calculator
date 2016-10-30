@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,300,700);
+html{
+  font-size:16px;
+}
+body{
+  padding-top:4.1vw;
+  background-color:#111;
+  background-size:cover;
+}
+#scrn1{
+  height:4vw;
+  background-color:#8a8a8a;
+  border-radius:0;
+  border:0;
+  cursor:default;
+  font-size:2vw;
+  font-family: 'Orbitron', sans-serif;
+}
+#scrn2{
+  height:3vw;
+  background-color:#8a8a8a;
+  border-radius:0;
+  border:0;
+  cursor:default;
+  font-size:1.5vw;
+  font-family: 'Orbitron', sans-serif;
+}
+.form-group{
+  margin-bottom:0;
+}
+.keypad{
+  background-color:#fff;
+}
+.key{
+  min-width:25%;
+  display:inline-block;
+  background-color:#0c090a;
+}
+.key:hover{
+  opacity:0.9;
+}
+.actionKey{
+  background-color:#0c090a;
+  min-width:25%;
+  display:inline-block;
+}
+.actionKey:hover{
+  opacity:0.9;
+}
+#AC{
+  min-width:37.50%;
+}
+#CE{
+  min-width:37.50%;
+}
+.num:hover{
+  cursor:pointer;
+}
+.specialKey{
+  min-width:50%;
+}
+a{
+  color:white;
+}
+a:hover{
+  color:#8a8a8a;
+  text-decoration:none;
+}
+.red{
+  background-color:red;
+}
+.red:hover{
+  opacity:0.8;
+}
+h1{
+  font-size:2.8vw;
+  display:inline;
+  line-height:3em;
+}
+.rightAlign{
+  text-align: right;
+}
+.name{
+  color:white;
+}
+@media only screen and (max-width: 500px) {
+}
