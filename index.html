@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.6.0/math.min.js"></script>
+    <script src="script.js"></script>
+    </head>
+<body>
+<div class="container-fluid">
+    <div class="col-xs-4 col-md-4"></div>
+    <div class="col-xs-4 col-md-4 text-center">
+        <div class="calculator">
+
+            <div class="screen rightAlign">
+                <div class="screen2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control rightAlign" id="scrn2">
+                        </div>
+                    </form>
+                </div>
+                <div class="screen1">
+                    <div class="form-group">
+                        <input type="text" class="form-control rightAlign" id="scrn1">
+                    </div>
+                    </form>
+                </div>
+            </div><!-- end of screen -->
+
+            <div class="keypad">
+                <div class="actionKey" id="AC">
+                    <div class="num" id="clear">
+                        <a><h1>AC</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey" id="CE">
+                    <div class="num" id="delete">
+                        <a><h1>CE</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey" id="division">
+                    <div class="num operator" id="/">
+                        <a><h1>/</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="7">
+                        <a><h1>7</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="8">
+                        <a><h1>8</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="9">
+                        <a><h1>9</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey text-center" id="multiplication">
+                    <div class="num operator" id="*">
+                        <a><h1>*</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="4">
+                        <a><h1>4</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="5">
+                        <a><h1>5</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="6">
+                        <a><h1>6</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey text-center" id="subtraction">
+                    <div class="num operator" id="-">
+                        <a><h1>-</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="1">
+                        <a><h1>1</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="2">
+                        <a><h1>2</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center red">
+                    <div class="num number" id="3">
+                        <a><h1>3</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey text-center" id="addition">
+                    <div class="num operator" id="+">
+                        <a><h1>+</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center">
+                    <div class="num number" id="0">
+                        <a><h1>0</h1></a>
+                    </div>
+                </div><!--
+                --><div class="key text-center">
+                    <div class="num number" id=".">
+                        <a><h1>.</h1></a>
+                    </div>
+                </div><!--
+                --><div class="actionKey text-center specialKey" id="equals">
+                    <div class="num" id="equal">
+                        <a><h1>=</h1></a>
+                    </div>
+                </div>
+            </div><!-- end of keypad -->
+
+        </div><!-- end of calculator -->
+        <h5 class="text-center name">By Ibukun</h5>
+    </div>
+    <div class="col-xs-4 col-md-4"></div>
+</div><!-- end of container-fluid -->
+</body>
+</html>
